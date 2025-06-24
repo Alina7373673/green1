@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head><meta charset="UTF-8"><title>Зеленые мечты</title></head>
+<head>
+  <meta charset="UTF-8">
+  <title>Зеленые мечты</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f6fff6; color: #143814; }
+    header, footer { background: #3e8f3e; color: white; padding: 20px; text-align: center; }
+    nav { background: #234923; display: flex; justify-content: center; padding: 10px; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 40px 20px; text-align: center; }
+    .cta { background: #d8f0d8; padding: 20px; margin-top: 30px; border-radius: 10px; }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+    .whatsapp a { background: #25D366; color: white; padding: 12px 18px; border-radius: 30px; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+  </style>
+</head>
 <body>
-  <h1>Добро пожаловать в магазин «Зеленые мечты»</h1>
-  <p><a href="catalog.html">Перейти в каталог растений</a></p>
+  <header>
+    <h1>Магазин «Зеленые мечты»</h1>
+    <p>Качественные саженцы и посадочный материал</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+
+  <main>
+    <h2>Добро пожаловать!</h2>
+    <p>Мы предлагаем плодовые и ягодные саженцы, кустарники, луковицы и многое другое.</p>
+
+    <div class="cta">
+      <h3>Приживаемость 95%, зимостойкие сорта</h3>
+      <p>Саженцы от 2-х лет, выращенные в суровых климатических условиях</p>
+    </div>
+  </main>
+
+  <footer id="contacts">
+    <p>ИП Гашимов Р.Г. | ИНН: 272399927050 | ОГРНИП: 318272400003654</p>
+    <p>г. Хабаровск, ул. Ворошилова, д.13, кв.29</p>
+    <p>📞 <a href="tel:+79240002222" style="color:#aef5ae;">+7 (924) 000-22-22</a> | 📧 <a href="mailto:gashimstroi2020@mail.ru" style="color:#aef5ae;">gashimstroi2020@mail.ru</a></p>
+  </footer>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/79240002222" target="_blank">Написать в WhatsApp</a>
+  </div>
 </body>
 </html>

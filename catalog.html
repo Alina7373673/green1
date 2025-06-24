@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head><meta charset="UTF-8"><title>Каталог</title></head>
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог — Зеленые мечты</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f5fff5; color: #143814; }
+    header, footer { background: #3e8f3e; color: white; padding: 20px; text-align: center; }
+    nav { background: #234923; display: flex; justify-content: center; padding: 10px; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 30px; gap: 20px; }
+    .item { background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 280px; padding: 20px; }
+    .item h3 { color: #234923; margin-top: 0; }
+    .item p { margin: 5px 0; }
+    footer p { margin: 5px; }
+  </style>
+</head>
 <body>
-  <h1>Каталог «Зеленые мечты»</h1>
-  <ul>
-    <li><b>Саженцы плодовые (2-3 лет):</b> ОКС — 600₽, ЗКС — 720₽</li>
-    <li><b>Плодово-ягодные:</b> ОКС — 330₽, ЗКС — 430₽</li>
-    <li><b>Кустарники:</b> ОКС — 330₽, ЗКС — 430₽</li>
-    <li><b>Голубика:</b> 600₽–700₽</li>
-    <li><b>Виноград (2-летний):</b> 400₽</li>
-    <li><b>Клубника:</b> ОКС — 50₽, ЗКС — 75₽</li>
-    <li><b>Рябина Амурская:</b> ОКС — 500₽, ЗКС — 600₽</li>
-    <li><b>Лук севок:</b> 195₽/кг</li>
-    <li><b>Чеснок озимый (Любаша, Добрыня, Богатырь):</b> 325₽/кг</li>
-  </ul>
-  <p><b>Преимущества:</b> Саженцы от 2 лет, привитые, выращены в зимостойких условиях. Приживаемость — 95%</p>
-  <p><b>Контакты:</b><br>
-  ИП Гашимов Р.Г.<br>
-  Телефон: <a href="tel:+79240002222">+7 (924) 000-22-22</a><br>
-  Email: <a href="mailto:gashimstroi2020@mail.ru">gashimstroi2020@mail.ru</a></p>
+  <header>
+    <h1>Каталог</h1>
+    <p>Плодово-ягодные культуры, кустарники, луковицы</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+
+  <div class="container">
+    <div class="item"><h3>Саженцы плодовые</h3><p>ОКС — 600 ₽ | ЗКС — 720 ₽</p></div>
+    <div class="item"><h3>Плодово-ягодные</h3><p>ОКС — 330 ₽ | ЗКС — 430 ₽</p></div>
+    <div class="item"><h3>Кустарники</h3><p>ОКС — 330 ₽ | ЗКС — 430 ₽</p></div>
+    <div class="item"><h3>Голубика</h3><p>600–700 ₽</p></div>
+    <div class="item"><h3>Виноград</h3><p>2-х летний — 400 ₽</p></div>
+    <div class="item"><h3>Клубника</h3><p>ОКС — 50 ₽ | ЗКС — 75 ₽</p></div>
+    <div class="item"><h3>Рябина Амурская</h3><p>ОКС — 500 ₽ | ЗКС — 600 ₽</p></div>
+    <div class="item"><h3>Лук-севок</h3><p>195 ₽/кг</p></div>
+    <div class="item"><h3>Чеснок озимый</h3><p>325 ₽/кг (Любаша, Добрыня, Богатырь)</p></div>
+  </div>
+
+  <footer id="contacts">
+    <p>Контакты: +7 (924) 000-22-22 | gashimstroi2020@mail.ru</p>
+    <p>ИП Гашимов Р.Г. | г. Хабаровск</p>
+  </footer>
 </body>
 </html>
